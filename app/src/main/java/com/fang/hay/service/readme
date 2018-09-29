@@ -1,0 +1,8 @@
+09-18 11:38:38.769 24693-24693/com.fang.hay I/System.out: MainActivity.onCreate
+09-18 11:38:38.771 24693-24693/com.fang.hay I/System.out: MainActivity.onStart
+09-18 11:38:38.771 24693-24693/com.fang.hay I/System.out: MainActivity.onResume
+09-18 11:38:38.841 24693-24693/com.fang.hay I/System.out: LocalFragment.onCreate
+09-18 11:38:42.187 24693-24693/com.fang.hay I/System.out: LocalFragment.onCreateView
+09-18 11:38:42.189 24693-24693/com.fang.hay I/System.out: LocalFragment.onViewCreated
+09-18 11:38:42.195 24693-24693/com.fang.hay I/System.out: LocalFragment.onResume
+09-18 11:38:42.538 24693-24693/com.fang.hay I/System.out: test1 onCreate
