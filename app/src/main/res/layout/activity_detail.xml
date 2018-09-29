@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".detail.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_detail_cd"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:src="@drawable/iv_detail_album"
+            android:transitionName="circle"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:max="10000"
+        android:progress="0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:divider="@drawable/shape_divider_horizontal"
+        android:gravity="center_vertical"
+        android:showDividers="middle">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_detail_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/vector_detail_mode_shuffle" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_detail_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/vector_detail_last" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_detail_play_or_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/vector_detail_play" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_detail_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/vector_detail_next" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_detail_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/vector_detail_favorite_no" />
+
+    </LinearLayout>
+
+</LinearLayout>
